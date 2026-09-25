@@ -80,9 +80,10 @@ chat1<-chat_google_gemini(
 ai_output1<-chat1$chat(
     content_image_file(figure1),
     "Describe the plot.
-    Write in journal publication standard.
+    Write all important aspects in one paragraph.
+    Write in publication standard.
     Do not write unnecessary things.
-    Make no mistake"
+    Make no mistake."
 )
 ```
 
@@ -107,9 +108,11 @@ chat1<-chat_google_gemini(
 ai_output1<-chat1$chat(
     content_image_file(figure1),
     "Describe the plot.
-    Write in journal publication standard.
+    Write all important aspects in one paragraph.
+    Write in publication standard.
     Do not write unnecessary things.
-    Make no mistake"
+    Make no mistake."
+"
 )
 ```
 
