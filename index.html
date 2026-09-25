@@ -8,7 +8,7 @@
 
 <meta name="author" content="Dr.&nbsp;Akash Kumar Baikar">
 
-<title>From Coding to Data Analysis: Automatic Report Generation Using Gemini in Quarto</title>
+<title>From Code to Narrative: A Step-by-Step Guide to Automated Reporting with Gemini &amp; Quarto</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -130,7 +130,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">From Coding to Data Analysis: Automatic Report Generation Using Gemini in Quarto</h1>
+<h1 class="title">From Code to Narrative: A Step-by-Step Guide to Automated Reporting with Gemini &amp; Quarto</h1>
 <p class="subtitle lead">Step-by-step guide to automatic AI analysis using Quarto.</p>
 </div>
 
@@ -305,8 +305,9 @@ Multiple R-squared:  0.7887,    Adjusted R-squared:  0.766
 F-statistic: 34.83 on 3 and 28 DF,  p-value: 1.375e-09</code></pre>
 </div>
 </div>
-<p>A multiple linear regression analysis was performed to examine the influence of vehicle weight (wt) and transmission type (gear) on fuel efficiency (mpg). The model demonstrated strong explanatory power, accounting for approximately 76.6% of the variance in fuel efficiency (adjusted <span class="math inline">\(R^2 = 0.766\)</span>, <span class="math inline">\(F(3, 28) = 34.83\)</span>, <span class="math inline">\(p &lt; 0.001\)</span>). The results reveal a statistically significant negative association between vehicle weight and fuel efficiency, indicating that each additional 1,000 pounds of weight corresponds to a mean reduction of 4.91 mpg (<span class="math inline">\(b = -4.909, t(28) = -6.902, p &lt; 0.001\)</span>). In contrast, transmission type did not exert a statistically significant effect on fuel efficiency, as neither four-speed (<span class="math inline">\(b = 2.163, p = 0.147\)</span>) nor five-speed configurations (<span class="math inline">\(b = -0.912,
-p = 0.607\)</span>) significantly differed from the three-speed baseline. Residual analysis indicates moderate variability, with a standard error of 2.915, suggesting that while weight is a robust predictor of fuel economy, the transmission-related variables provide no meaningful improvement to the model’s predictive precision.</p>
+<p>The multiple linear regression analysis examining the influence of vehicle weight and gear count on fuel efficiency (mpg) yields a robust model, accounting for 76.6% of the variance in the dependent variable (adjusted <span class="math inline">\(R^2 =
+0.766\)</span>, <span class="math inline">\(F(3, 28) = 34.83\)</span>, <span class="math inline">\(p &lt; .001\)</span>). The results demonstrate a significant negative association between vehicle weight and fuel efficiency, with each unit increase in weight resulting in a substantial reduction of 4.91 mpg (<span class="math inline">\(b =
+-4.909, t(28) = -6.902, p &lt; .001\)</span>). In contrast, the categorical variable representing the number of forward gears failed to reach statistical significance; neither four-gear (<span class="math inline">\(b = 2.163, p = .147\)</span>) nor five-gear configurations (<span class="math inline">\(b = -0.912, p = .607\)</span>) showed a reliable deviation from the three-gear baseline. With a residual standard error of 2.915, the model indicates that while vehicle weight serves as a primary and highly significant predictor of fuel economy, the transmission gear configuration does not provide meaningful additional explanatory power within the context of this dataset.</p>
 </section>
 <section id="automatic-ai-analysis-of-regression-result-from-stata-in-quarto" class="level1">
 <h1>Automatic AI Analysis of Regression Result from STATA in Quarto</h1>
@@ -363,7 +364,7 @@ Unknown #command
       name:  &lt;unnamed&gt;
        log:  D:\Work\2026 July-December\data_analysis\reg_stata.txt
   log type:  text
- opened on:  25 Sep 2026, 23:45:04
+ opened on:  25 Sep 2026, 23:57:00
 
       Source |       SS           df       MS      Number of obs   =     2,246
 -------------+----------------------------------   F(4, 2241)      =     50.68
@@ -389,11 +390,11 @@ Unknown #command
       name:  &lt;unnamed&gt;
        log:  D:\Work\2026 July-December\data_analysis\reg_stata.txt
   log type:  text
- closed on:  25 Sep 2026, 23:45:04
+ closed on:  25 Sep 2026, 23:57:00
 -------------------------------------------------------------------------------</code></pre>
 </div>
 </div>
-<p>The results of the ordinary least squares regression (N = 2,246) indicate that total work experience, race, and marital status collectively account for 8.3% of the variance in hourly wages (F(4, 2,241) = 50.68, p &lt; 0.001). Total work experience is a significant, positive determinant of earnings, with each additional year of experience associated with a $0.33 increase in hourly wage (b = 0.331, p &lt; 0.001). Controlling for experience and marital status, individuals identified as Black earn significantly less than the reference group (b = -1.455, p &lt; 0.001), whereas the coefficient for those identified as “Other” race does not reach statistical significance (p = 0.701). Furthermore, marital status exerts a significant negative effect on wages, with married individuals earning $0.57 less per hour on average compared to unmarried individuals (b = -0.574, p = 0.021). While the model demonstrates overall statistical significance, the low adjusted R-squared (0.081) suggests that the specified predictors capture only a modest portion of the variation in wage outcomes, indicating the potential omission of other relevant explanatory factors.</p>
+<p>A linear regression analysis conducted on a sample of 2,246 individuals reveals that total work experience, race, and marital status collectively account for 8.3% of the variance in hourly wages (F(4, 2241) = 50.68, p &lt; 0.001). Total work experience demonstrates a robust positive correlation with earnings, with each additional year of experience associated with an estimated wage increase of $0.33 (p &lt; 0.001). Controlling for experience and marital status, the results indicate significant racial disparities: individuals identifying as Black earn, on average, $1.45 less per hour compared to the reference group (p &lt; 0.001), whereas those classified as “Other” do not show a statistically significant difference in wages (p = 0.701). Additionally, marital status serves as a significant predictor, with married individuals earning $0.57 less per hour than their unmarried counterparts (p = 0.021). While the model is statistically significant, the low adjusted R-squared (0.0813) indicates that a substantial portion of wage determination remains unexplained by the current predictors, suggesting the influence of omitted variables not captured in this specification.</p>
 </section>
 </section>
 
