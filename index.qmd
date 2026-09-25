@@ -2,7 +2,7 @@
 title: "From Coding to Data Analysis: Automatic Report Generation Using Gemini in Quarto"
 subtitle: "Step-by-step guide to automatic AI analysis using Quarto."
 author: "Dr. Akash Kumar Baikar"
-abstract: "ellmer package is used to generate AI analysis of graphs and econometric models"
+abstract: "ellmer package is used to generate AI analysis of graphs and econometric models."
 format:
   html:
     theme: minty
@@ -267,7 +267,7 @@ log using "reg_stata.txt", text replace
 regress wage ttl_exp i.race i.married
 log close
 ```
-```{r, results="asis"}
+```{r, results='asis'}
 #| echo: false
 ai_output3<-chat1$chat(prompt_stata_reg)
 ```
